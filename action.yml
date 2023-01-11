@@ -1,0 +1,22 @@
+name: 'Just a Composite Action'
+description: 'I am just a test composite action'
+runs:
+  using: "composite"
+  steps:
+  - name: Composite Action Step 1
+    run: |
+      echo ""
+      echo "Composite Action Step 1" >> $GITHUB_STEP_SUMMARY
+    shell: bash
+    
+  - name: Composite Action Step 2
+    run: |
+      echo ""
+      echo "Composite Action Step 2" >> $GITHUB_STEP_SUMMARY
+    shell: bash
+    
+  - name: Composite Action Step 3
+    run: |
+      echo ""
+      echo "Composite Action Step 3" >> $GITHUB_STEP_SUMMARY
+    shell: bash
