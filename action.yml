@@ -7,16 +7,22 @@ runs:
     run: |
       echo ""
       echo "Composite Action Step 1" >> $GITHUB_STEP_SUMMARY
+      echo "Composite Action Step 1.1" >> $GITHUB_STEP_SUMMARY
+      echo "Composite Action Step 1.2" >> $GITHUB_STEP_SUMMARY
     shell: bash
     
   - name: Composite Action Step 2
     run: |
       echo ""
       echo "Composite Action Step 2" >> $GITHUB_STEP_SUMMARY
+      echo "Composite Action Step 2.1" >> $GITHUB_STEP_SUMMARY
+      echo "Composite Action Step 2.2" >> $GITHUB_STEP_SUMMARY
     shell: bash
     
   - name: Composite Action Step 3
     run: |
       echo ""
       echo "Composite Action Step 3" >> $GITHUB_STEP_SUMMARY
+      echo "Composite Action Step 3.1" >> $GITHUB_STEP_SUMMARY
+      echo "Composite Action Step 3.2" >> $GITHUB_STEP_SUMMARY
     shell: bash
