@@ -10,6 +10,9 @@ jobs:
     steps:
       - name: First Step
         run: echo "Ran the first step" >> $GITHUB_STEP_SUMMARY
+        
+      - name: My Composite Action
+        uses: devopselvis/testing-composite-action-and-job-summary-step@main
 
       - name: Second Step
         run: |
